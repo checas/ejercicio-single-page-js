@@ -1,10 +1,10 @@
 const Header = () => {
     const view = `
         <div class="Header-main">
-           <div class="Hedaer-logo>
+            <div class="Header-logo">
                 <h1>
                     <a href="/">
-                        100tifi.com
+                        100tifi.co
                     </a>
                 </h1>
             </div>
@@ -16,6 +16,6 @@ const Header = () => {
         </div>
     `;
     return view;
-}
+};
 
 export default Header;
